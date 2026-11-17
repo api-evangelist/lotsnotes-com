@@ -1,4 +1,4 @@
-# lotsnotes-com
+# LotsNotes
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lotsnotes-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lotsnotes.com/
+LotsNotes provides a shared knowledge base for businesses, enabling AI agents and team members to access consistent, up‑to‑date business context, positioning, pricing, and rules. It centralises notes, playbooks, and client information so AI assistants like Claude, ChatGPT, and others can act with a unified understanding of the company.
+
+**Areas:** AI · KnowledgeBase · BusinessTools · Collaboration · SaaS
+
+## LotsNotes on APIs.io
+
+Everything profiled for LotsNotes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lotsnotes-com/](https://apis.io/providers/lotsnotes-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [LotsNotes API](https://apis.io/apis/lotsnotes-com/lotsnotes-api/) — Shared knowledge base API for teams and AI agents.
+- [LotsNotes API](https://apis.io/apis/lotsnotes-com/lotsnotes-com-api/) — LotsNotes API as documented publicly: 95 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1LotsnotesContextNotesNoteidResponse](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-get-api-v1-lotsnotes-context-notes-noteid-response/)
+- [PatchApiV1LotsnotesFoldersFolderidRequest](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-patch-api-v1-lotsnotes-folders-folderid-request/)
+- [PostApiV1LotsnotesBlocksRequest](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-post-api-v1-lotsnotes-blocks-request/)
+- [PostApiV1LotsnotesLabelRequest](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-post-api-v1-lotsnotes-label-request/)
+- [PutApiV1LotsnotesBlockIdRequest](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-put-api-v1-lotsnotes-block-id-request/)
+- [PutApiV1LotsnotesNotesIdBlocksReorderRequest](https://apis.io/schemas/lotsnotes-com/lotsnotes-com-put-api-v1-lotsnotes-notes-id-blocks-reorder-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lotsnotes Com Context](https://apis.io/jsonld/lotsnotes-com/lotsnotes-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LotsNotes API Rules](https://apis.io/rules/lotsnotes-com/lotsnotes-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [LotsNotes Domain Security](https://apis.io/security/lotsnotes-com/lotsnotes-com-domain-security/)
+- [LotsNotes Vulnerability Disclosure](https://apis.io/security/lotsnotes-com/lotsnotes-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [LotsNotes Plans Pricing](https://apis.io/plans/lotsnotes-com/lotsnotes-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lotsnotes.com/)
+- [Documentation](https://api.lotsnotes.com/docs)
+- [API reference](https://api.lotsnotes.com/docs.md)
+- [Pricing](https://lotsnotes.com/pricing)
+- [Support](https://support.lotsnotes.com/)
+- [Changelog](https://support.lotsnotes.com/changelog)
+- [Blog](https://lotsnotes.com/blog)
+- [Security](https://www.lotstech.com/security)
+- [Terms of service](https://www.lotstech.com/terms-of-service)
+- [Privacy policy](https://www.lotstech.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 49.5** — developing · rubric 0.27.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 63.7 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lotsnotes-com/](https://apis.io/providers/lotsnotes-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LotsNotes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lotsnotes-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
